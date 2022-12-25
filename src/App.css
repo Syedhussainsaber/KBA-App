@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+ul li .active {
+  border-bottom: 4px solid black;
+  border-radius: 3px;
+  color: black;
+  padding-bottom: 6px;
+  cursor: not-allowed;
+}
+ul li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item :hover {
+  color: rgb(103, 103, 103);
+  border-bottom: 4px solid black;
+  padding-bottom: 6px;
+  border-radius: 3px;
+}
